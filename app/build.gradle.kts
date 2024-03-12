@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.apiproject"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.apiproject"
@@ -53,5 +53,7 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation ("org.osmdroid:osmdroid-android:6.1.13")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.cardview:cardview:1.0.0")
 
 }
